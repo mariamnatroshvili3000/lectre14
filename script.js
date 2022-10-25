@@ -1,3 +1,14 @@
+function display (x) {
+    var z = x * x;
+    document.write(x + z);
+};
+display(5)
+
+
+
+
+
+
 var strSum = prompt ("შეიყვანეთ ნივთის ფასი", 80)
 if (price >= 20 && income <=50) {
     alert( "sashualo fasi")
@@ -22,6 +33,7 @@ else {
             console.log ("კაი ძვირი")
     }    
 
+    
 var numbers = [15,53,22,198,10,28,16,70,33,951 ];
 var evens=[]
 for( var i=0; i < numbers.lenght; i++) {
